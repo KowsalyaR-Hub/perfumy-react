@@ -1,0 +1,106 @@
+body
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+*
+{
+  margin: 0;
+  padding: 0;
+}
+.navbar
+{
+  background-color: black;
+  padding: 15px 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li, h1, ul
+{
+  display: inline;
+}
+li a
+{
+  text-decoration: none;
+  color: #ABABAA;
+  margin-left: 5px;
+}
+li a:hover
+{
+  text-decoration: none;
+  color: white;
+  margin-left: 5px;
+}
+.searchbar
+{
+  text-align: center;
+  padding-top: 5vh;
+}
+.searchbar input
+{
+  border: none;
+  border: solid 1px #AAAAAA;
+  width: 60%;
+  display: inline;
+  padding: 15px;
+  border-radius: 5px;
+}
+.products
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh 0;
+}
+.product-item{
+  border: solid black 2px;
+  text-align: center;
+  width: 20%;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+}
+.product-item img
+{
+  width: 100%;
+}
+.product-item p
+{
+  padding: 5px 0;
+}
+.product-item:hover{
+  border-color: black;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.about
+{
+  padding: 3vh;
+  text-align: center;
+}
+.about p
+{
+  margin: 2vh;
+  text-align: center;
+  line-height: 180%;
+}
+.footer
+{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.footer p
+{
+  margin: 10px;
+}
+.footer_content
+{
+  color: #AAAAAA;
+}
+
+
